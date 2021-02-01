@@ -10,6 +10,10 @@ TDengine is an open-sourced big data platform under GNU AGPL v3.0, designed and 
 
 For more information, please visit [TDengine homepage](https://www.taosdata.com)
 
+## About YoMo
+
+[YoMo](https://github.com/yomorun/yomo) is an open-source Streaming Serverless Framework for building Low-latency Edge Computing applications. Built atop QUIC Transport Protocol and Functional Reactive Programming interface. makes real-time data processing reliable, secure, and easy.
+
 ## 1: Installing TDengine
 
 ```bash
