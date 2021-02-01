@@ -16,7 +16,7 @@ var zipperAddr = os.Getenv("YOMO_ZIPPER_ENDPOINT")
 
 func main() {
 	if zipperAddr == "" {
-		zipperAddr = "localhost:9999"
+		zipperAddr = "localhost:9000"
 	}
 	err := emit(zipperAddr)
 	if err != nil {

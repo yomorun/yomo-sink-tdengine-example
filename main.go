@@ -67,20 +67,18 @@ func store(v interface{}) error {
 
 	// Ensure 'noise' table exists
 	sql := "CREATE TABLE IF NOT EXISTS noise (ts TIMESTAMP, v FLOAT)"
-	res, err := db.Exec(sql)
+	_, err = db.Exec(sql)
 	if err != nil {
 		fmt.Printf("db.Exec error: %s\n", err)
 	}
-	fmt.Printf("res=%v\n", res)
 
 	// Insert data
 	var val float32 = v.(float32)
 	sql = "INSERT INTO noise VALUES (NOW, " + fmt.Sprintf("%f", val) + ")"
-	res, err = db.Exec(sql)
+	_, err = db.Exec(sql)
 	if err != nil {
 		fmt.Printf("Insert error: %s\n", err)
 	}
-	fmt.Printf("res=%v\n", res)
 
 	return err
 }
