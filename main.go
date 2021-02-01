@@ -12,7 +12,7 @@ import (
 	_ "github.com/taosdata/driver-go/taosSql"
 )
 
-var url = "root:taosdata@/tcp(172.16.0.191:6030)/yomo"
+var url = "root:taosdata@/tcp(localhost:6030)/yomo"
 
 func main() {
 	log.Print("Starting YoMo Sink server: -> TDEngine")
