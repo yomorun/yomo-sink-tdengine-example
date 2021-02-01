@@ -1,6 +1,6 @@
 ![yomo-integrate-with-TDengine](taos-yomo.jpg)
 
-# yomo-source-TDengine-starter
+# Integrate TDengine to YoMo
 
 TDengine 🙌 YoMo. Demonstrates how to integrate TDengine to YoMo and store data to TDengine after stream processing.
 
