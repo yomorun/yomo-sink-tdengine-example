@@ -41,7 +41,7 @@ Query OK, 0 row(s) affected (0.011501s)
 taos> insert into noise values ('2021-01-01 00:00:00', 41.1);
 Query OK, 1 row(s) affected (0.002012s)
 
-taos> select * from t;
+taos> select * from noise;
            ts            |           v          |
 =================================================
  2021-01-01 00:00:00.000 |             41.10000 |
