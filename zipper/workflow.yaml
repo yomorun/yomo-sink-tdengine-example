@@ -1,0 +1,7 @@
+name: YoMoZipper 
+host: localhost
+port: 9000
+Sinks:
+  - name: TDEngine
+    host: 172.16.101.13
+    port: 9333
